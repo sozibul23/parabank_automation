@@ -1,0 +1,10 @@
+{
+  "approvedLoan": {
+    "amount": "1000",
+    "downPayment": "200"
+  },
+  "highRiskLoan": {
+    "amount": "500000",
+    "downPayment": "10"
+  }
+}
