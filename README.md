@@ -4,7 +4,7 @@ Comprehensive Playwright + TypeScript test automation framework for [ParaBank On
 
 ---
 
-## 🚀 Key Highlights & Architecture
+## Key Highlights & Architecture
 - **Page Object Model (POM)**: Complete decoupling of test logic from UI locators and interactions across 7 dedicated page objects.
 - **Dynamic User Creation**: `utils/testHelper.ts` isolates each test scenario with dynamic user credentials, avoiding cross-test state pollution.
 - **Data-Driven Testing**: External JSON test fixtures in `data/` for loan limits and customer profile modifications.
@@ -12,7 +12,7 @@ Comprehensive Playwright + TypeScript test automation framework for [ParaBank On
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 parabank_automation/
 ├── .github/
@@ -50,7 +50,7 @@ parabank_automation/
 
 ---
 
-## 🧪 Test Suites Coverage
+## Test Suites Coverage
 | Suite | File | Scenarios Covered |
 | :--- | :--- | :--- |
 | **Registration** | `01-registration.spec.ts` | Dynamic customer registration, empty field validation errors |
@@ -65,7 +65,7 @@ parabank_automation/
 
 ---
 
-## 📋 Running Tests
+## Running Tests
 
 ```bash
 # Run all 9 test suites
